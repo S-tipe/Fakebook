@@ -1,0 +1,23 @@
+#red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+    font-family: monospace;
+}
+.big {
+    font-size: 50px;
+}
+
+#yellow {
+    color: yellow;
+}
+
+.image {
+    border: 6px black dotted:
+    padding: 5px;
+}
+.image:hover {
+border: 6px red solid;
+}
