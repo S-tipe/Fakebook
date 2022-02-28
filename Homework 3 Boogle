@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Boogle</title>
+    <link rel="stylesheet" href="Boogle.css">
+</head>
+<body>
+<div id="top">
+    <a href="#home">Gmail</a>
+    <a href="#images">Images</a>
+    <a href="#contact"><img class="dots" src="dots.jpg"></a>
+</div>
+
+<div id="picture">
+    <img src="boogle.jpg.jpeg" class="boogle">
+    <br>
+    <br>
+</div>
+
+<div id="search-bar">
+    <img src="search.jpg" id="searchicon">
+    <input type="text" id="input">
+    <img src="microphone.jpg" id="microphoneicon">
+    <input type="submit" class="srcbuttons" value="Boogle Search">
+    <input type="submit" class="srcbuttons" value="I'm Feeling Lucky">
+</div>
+<br>
+<div id="offers">
+    Boogle offered in:
+    <a href="#">Hrvatski</a>
+</div>
+
+
+</body>
+</html>
