@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+ #top {
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+
+.dots {
+    width: 30px;
+    hight: 30px;
+}
+
+#picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#search-bar {
+    width: 580px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+}
+
+#input {
+    display: block;
+    border: 2px solid #ddd;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 90%;
+    transition: box-shadow 100ms;
+    outline: none;
+}
+
+#searchicon {
+    width: 35px;
+	opacity: .9;
+	position: absolute;
+	top: 13px;
+	left: 10px;
+}
+
+
+#microphoneicon {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+
+.srcbuttons {
+	border: 1px solid transparent;
+	padding: 9px 15px;
+	color: #000000;
+	font-size: 14px;
+	border-radius: 20px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 28px;
+	outline: none;
+	cursor: pointer;
+	transition: border-color 100ms;
+}
+
+.srcbuttons:hover {
+    border: 1px solid #aaa;
+}
+
+#offers {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+}
